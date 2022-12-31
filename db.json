@@ -1,0 +1,239 @@
+{
+  "users": [
+    {
+      "username": "hasan.ersoy",
+      "password": "Haser1.",
+      "request": 1,
+      "id": 1
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "request": 1
+    },
+    {
+      "name": "Mehmet",
+      "surname": "Yılmaz",
+      "studentno": "27482379",
+      "tcno": "67967856634",
+      "Place_of_birth": "Adana",
+      "date_of_birth": "12.03.2000",
+      "adres": "CUMHURİYET MAH. BİRİNCİ SOK. İKİNCİ APT. NO:111/6a",
+      "il": "ANKARA",
+      "ilce": "YENİMAHALLE",
+      "email": "abc@hotmail.com",
+      "gsm": "53323423422",
+      "username": "mehmet.yilmaz",
+      "password": "Mehyil6!",
+      "müfredat_id": "1",
+      "kimlik_id": "3",
+      "iletisim_id": "1",
+      "request": 0,
+      "id": 2
+    },
+    {
+      "name": "Ahmet",
+      "surname": "Ünal",
+      "studentno": "23462368",
+      "tcno": "72347322958",
+      "date_of_birth": "14.06.2001",
+      "adres": "KUŞADASI SOK. NO:123 KARAAĞAÇ",
+      "il": "ANKARA",
+      "ilce": "ÇANKAYA",
+      "email": "def@gmail.com",
+      "gsm": "5437657567",
+      "Place_of_birth": "Ankara",
+      "username": "ahmet.unal",
+      "password": "Ahun23",
+      "müfredat_id": "1",
+      "kimlik_id": "5",
+      "iletisim_id": "6",
+      "request": 0,
+      "id": 3
+    },
+    {
+      "name": "Mustafa",
+      "surname": "Işık",
+      "studentno": "34565479",
+      "tcno": "97850348520",
+      "date_of_birth": "21.12.2000",
+      "adres": "TURAN GÜNEŞ BULVARI TAMTAM SİTESİ 13. CAD. NO:51",
+      "il": "ANKARA",
+      "ilce": "KEÇİÖREN",
+      "email": "ghi@abc.com",
+      "gsm": "5305464646",
+      "Place_of_birth": "Sivas",
+      "id": 4,
+      "username": "mustafa.isik",
+      "password": "Musi64%",
+      "müfredat_id": "2",
+      "kimlik_id": "6",
+      "iletisim_id": "3",
+      "request": 0
+    },
+    {
+      "name": "Ayşe",
+      "surname": "Erdoğan",
+      "studentno": "53456346",
+      "tcno": "32756874239",
+      "date_of_birth": "04.03.2001",
+      "adres": "DEMİRCİKARA MAH. B.ONAT CAD. HEDE SİT. B BLOK NO : 1",
+      "il": "ANKARA",
+      "ilce": "PURSAKLAR",
+      "email": "mno@xyz.com",
+      "gsm": "5555424245",
+      "Place_of_birth": "Uşak",
+      "id": 5,
+      "username": "ayse.erdogan",
+      "password": "Ayer33.",
+      "müfredat_id": "2",
+      "kimlik_id": "2",
+      "iletisim_id": "5",
+      "request": 0
+    },
+    {
+      "name": "Fatma",
+      "surname": "Korkmaz",
+      "studentno": "34674575",
+      "tcno": "98423479320",
+      "date_of_birth": "01.01.2001",
+      "adres": "SİTELER MAHALLESİ 6223 SOKAK DURU APT. NO:11 KAT:3",
+      "il": "ANKARA",
+      "ilce": "POLATLI",
+      "email": "klm@outlook.com",
+      "gsm": "5408932042",
+      "Place_of_birth": "Kütahya",
+      "id": 6,
+      "username": "fatma.korkmaz",
+      "password": "Fatkor12%",
+      "müfredat_id": "3",
+      "kimlik_id": "4",
+      "iletisim_id": "2",
+      "request": 0
+    }
+  ],
+  "MUFREDAT": {
+    "BilgMuh_Mufredat": [
+      {
+        "müfredat_id": "1"
+      },
+      {
+        "id": 1,
+        "ders_adi": "Calculus 2",
+        "ders_kodu": "MATH102",
+        "ders_kredi": "6",
+        "ders_durum": "0"
+      },
+      {
+        "ders_kodu": "MATE103",
+        "ders_adi": "Metalurjiye Giriş",
+        "ders_kredi": "6",
+        "ders_durum": "0",
+        "id": 2
+      },
+      {
+        "ders_kodu": "CMPE201",
+        "ders_adi": "Bilgisayar Teknolojileri",
+        "ders_kredi": "1",
+        "ders_durum": "4",
+        "id": 5
+      }
+    ],
+    "GrafikMuh_Mufredat": [
+      {
+        "müfredat_id": "2"
+      },
+      {
+        "ders_kodu": "ENG102",
+        "ders_adi": "İngilizce 2",
+        "ders_kredi": "4",
+        "ders_durum": "1",
+        "id": 6
+      },
+      {
+        "ders_kodu": "MATE103",
+        "ders_adi": "Metalurjiye Giriş",
+        "ders_kredi": "6",
+        "ders_durum": "0",
+        "id": 7
+      },
+      {
+        "ders_kodu": "CMPE201",
+        "ders_adi": "Bilgisayar Teknolojileri",
+        "ders_kredi": "4",
+        "ders_durum": "1",
+        "id": 8
+      }
+    ],
+    "IngDilEdebiyat_Muf": [
+      {
+        "müfredat_id": "3"
+      },
+      {
+        "ders_kodu": "ENG102",
+        "ders_adi": "İngilizce 2",
+        "ders_kredi": "4",
+        "ders_durum": "1",
+        "id": 6
+      },
+      {
+        "ders_kodu": "MATE103",
+        "ders_adi": "Metalurjiye Giriş",
+        "ders_kredi": "6",
+        "ders_durum": "0",
+        "id": 3
+      }
+    ]
+  },
+  "dersler": [
+    {
+      "ders_kodu": "HUM101",
+      "ders_adi": "Türk Demokrasi Tarihi",
+      "ders_kredi": "5",
+      "ders_durum": "1",
+      "id": 1
+    },
+    {
+      "ders_kodu": "MATH102",
+      "ders_adi": "Calculus 2",
+      "ders_kredi": "6",
+      "ders_durum": "0",
+      "id": 2
+    },
+    {
+      "ders_kodu": "MATE103",
+      "ders_adi": "Metalurjiye Giriş",
+      "ders_kredi": "6",
+      "ders_durum": "0",
+      "id": 3
+    },
+    {
+      "ders_kodu": "GRA105",
+      "ders_adi": "Grafik Dizayn",
+      "ders_kredi": "5",
+      "ders_durum": "1",
+      "id": 4
+    },
+    {
+      "ders_kodu": "CMPE201",
+      "ders_adi": "Bilgisayar Teknolojileri",
+      "ders_kredi": "4",
+      "ders_durum": "1",
+      "id": 5
+    },
+    {
+      "ders_kodu": "ENG102",
+      "ders_adi": "İngilizce 2",
+      "ders_kredi": "4",
+      "ders_durum": "1",
+      "id": 6
+    },
+    {
+      "ders_kodu": "MATH201",
+      "ders_adi": "İleri Calculus",
+      "ders_kredi": "6",
+      "ders_durum": "1",
+      "id": 7
+    }
+  ]
+}
