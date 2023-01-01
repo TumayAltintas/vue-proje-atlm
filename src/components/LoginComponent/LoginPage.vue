@@ -37,7 +37,7 @@ export default {
   },
   methods: {
     onsubmit() {
-      this.$appAxios.get(`users?username=${this.userData.username}&password=${this.userData.password}`).then(login_response => {
+      this.$appAxios.get(`admin?username=${this.userData.username}&password=${this.userData.password}`).then(login_response => {
         if (login_response.data.length > 0) {
           this.$router.push({name: 'Home'});
           this.$store.commit('setUser', login_response.data);

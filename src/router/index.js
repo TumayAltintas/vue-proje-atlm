@@ -73,7 +73,7 @@ router.beforeEach((to, _, next) => {
 
 	if (authRequiredRoutes.indexOf(to.name) > -1) {
 		if (_isAuthenticated) next();
-		else next({name: "LoginChoice"});
+		else next({path: "/"});
 	} else {
 		next();
 	}
