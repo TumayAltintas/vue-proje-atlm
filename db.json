@@ -1,10 +1,11 @@
 {
-  "admin": [{
-    "username": "hasan.ersoy",
-    "password": "Haser1.",
-    "request": 1,
-    "id": 1
-  },
+  "admin": [
+    {
+      "username": "hasan.ersoy",
+      "password": "Haser1.",
+      "request": 1,
+      "id": 1
+    },
     {
       "username": "admin",
       "password": "admin",
@@ -12,7 +13,6 @@
     }
   ],
   "users": [
-
     {
       "name": "Mehmet",
       "surname": "Yılmaz",

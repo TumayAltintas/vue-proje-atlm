@@ -57,15 +57,15 @@ const router = createRouter({
 			component: () => import("../views/AdminMufredat.vue"),},
 
 		{
-			path: '/DersSecimi',
-			name: 'DersSecimi',
-			component: () => import("../components/StudentComponents/DersSecimi.vue"),
+			path: '/StudentDers',
+			name: 'StudentDers',
+			component: () => import("../views/StudentDers.vue"),
 		},
 	]
 });
 router.beforeEach((to, _, next) => {
 	const authRequiredRoutes = ["Home", "AdminAddStudent",
-		"AdminEditStudent", "AdminMufredat", "EditLesson", "StudentInformation", "StudentHome", "DersSecimi"];
+		"AdminEditStudent", "AdminMufredat", "EditLesson", "StudentInformation", "StudentHome", "StudentDers"];
 	const authNotRequiredRoutes = ["Login", "LoginChoice", "StudentLogin"];
 	const _isAuthenticated = store.getters._isAuthenticated;
 
