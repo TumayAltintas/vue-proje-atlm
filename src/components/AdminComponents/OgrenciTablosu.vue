@@ -6,9 +6,6 @@
           <router-link to="/AdminAddStudent">
             <button class="btn btn-danger">EKLE</button>
           </router-link>
-          <router-link to="/MUFREDAT">
-            <button class="btn btn-danger">Müfredat</button>
-          </router-link>
         </div>
         <div style="position: relative; top: 55px; left: 0">
           <table class="table table-bordered table-sm ">

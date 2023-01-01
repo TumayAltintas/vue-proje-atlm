@@ -1,6 +1,11 @@
 <template>
   <div>
     <div class="AdminMenuButton">
+      <router-link to="/Home">
+        <button type="button" class="btn btn-primary SideButton">Anasayfaya dön</button>
+      </router-link>
+    </div>
+    <div class="AdminMenuButton">
       <router-link to="/AdminAddStudent">
         <button type="button" class="btn btn-primary SideButton">Öğrenci ekle</button>
       </router-link>
@@ -13,16 +18,6 @@
     <div class="AdminMenuButton">
       <router-link to="/AdminMufredat">
         <button type="button" class="btn btn-primary SideButton">Müfredat oluşturma</button>
-      </router-link>
-    </div>
-    <div class="AdminMenuButton">
-      <router-link to="">
-        <button type="button" class="btn btn-primary SideButton">Öğrenci tablosu</button>
-      </router-link>
-    </div>
-    <div class="AdminMenuButton">
-      <router-link to="">
-        <button type="button" class="btn btn-primary SideButton">Öğrenci ekle</button>
       </router-link>
     </div>
   </div>
