@@ -1,5 +1,5 @@
 <template>
-  <div class="d-flex flex-row align-items-start">
+  <div class="d-flex ">
     <div>
       <AdminSideMenu/>
     </div>

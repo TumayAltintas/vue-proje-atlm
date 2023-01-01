@@ -1,12 +1,12 @@
 <template>
   <div class="ms-3">
     <div class="AdminMenuButton">
-      <router-link to="/AdminAddStudent">
+      <router-link to="/StudentInformation">
         <button type="button" class="btn btn-primary SideButton">Kişisel bilgilerim</button>
       </router-link>
     </div>
     <div class="AdminMenuButton">
-      <router-link to="/EditLesson">
+      <router-link to="/StudentDers">
         <button type="button" class="btn btn-primary SideButton">Derslerim</button>
       </router-link>
     </div>

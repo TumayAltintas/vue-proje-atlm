@@ -1,5 +1,5 @@
 <template>
-  <div class="ms-3">
+  <div>
     <div class="AdminMenuButton">
       <router-link to="/AdminAddStudent">
         <button type="button" class="btn btn-primary SideButton">Öğrenci ekle</button>

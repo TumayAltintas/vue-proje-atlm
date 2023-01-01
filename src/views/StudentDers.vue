@@ -15,7 +15,17 @@ import DersSecimi from "@/components/StudentComponents/DersSecimi.vue";
 import SudentSideMenu from "@/components/LeftSideMenu/SudentSideMenu.vue";
 export default {
   name: "StudentDers",
-  components: {SudentSideMenu, DersSecimi}
+  components: {SudentSideMenu,
+    DersSecimi
+  },
+
+  data(){
+    return{
+      dersler:[],
+      Studentid: this.$store.state.user.map(res => res.id)
+    }
+  },
+
 }
 </script>
 

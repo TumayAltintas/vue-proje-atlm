@@ -31,7 +31,30 @@
       "kimlik_id": "3",
       "iletisim_id": "1",
       "request": 0,
-      "id": 2
+      "id": 2,
+      "derslerim": [
+        {
+          "id": 1,
+          "ders_adi": "Calculus 2",
+          "ders_kodu": "MATH102",
+          "ders_kredi": "6",
+          "ders_durum": "0"
+        },
+        {
+          "ders_kodu": "MATE103",
+          "ders_adi": "Metalurjiye Giriş",
+          "ders_kredi": "6",
+          "ders_durum": "0",
+          "id": 2
+        },
+        {
+          "ders_kodu": "CMPE201",
+          "ders_adi": "Bilgisayar Teknolojileri",
+          "ders_kredi": "1",
+          "ders_durum": "4",
+          "id": 5
+        }
+      ]
     },
     {
       "name": "Ahmet",
@@ -51,7 +74,30 @@
       "kimlik_id": "5",
       "iletisim_id": "6",
       "request": 0,
-      "id": 3
+      "id": 3,
+      "derslerim": [
+        {
+          "id": 1,
+          "ders_adi": "Calculus 2",
+          "ders_kodu": "MATH102",
+          "ders_kredi": "6",
+          "ders_durum": "0"
+        },
+        {
+          "ders_kodu": "MATE103",
+          "ders_adi": "Metalurjiye Giriş",
+          "ders_kredi": "6",
+          "ders_durum": "0",
+          "id": 2
+        },
+        {
+          "ders_kodu": "CMPE201",
+          "ders_adi": "Bilgisayar Teknolojileri",
+          "ders_kredi": "1",
+          "ders_durum": "4",
+          "id": 5
+        }
+      ]
     },
     {
       "name": "Mustafa",
@@ -71,7 +117,49 @@
       "müfredat_id": "2",
       "kimlik_id": "6",
       "iletisim_id": "3",
-      "request": 0
+      "request": 0,
+      "derslerim": [
+        {
+          "ders_kodu": "ENG102",
+          "ders_adi": "İngilizce 2",
+          "ders_kredi": "4",
+          "ders_durum": "1",
+          "id": 6
+        },
+        {
+          "ders_kodu": "MATE103",
+          "ders_adi": "Metalurjiye Giriş",
+          "ders_kredi": "6",
+          "ders_durum": "0",
+          "id": 7
+        },
+        {
+          "ders_kodu": "CMPE201",
+          "ders_adi": "Bilgisayar Teknolojileri",
+          "ders_kredi": "4",
+          "ders_durum": "1",
+          "id": 8
+        }
+      ],
+      "IngDilEdebiyat_Muf": [
+        {
+          "müfredat_id": "3"
+        },
+        {
+          "ders_kodu": "ENG102",
+          "ders_adi": "İngilizce 2",
+          "ders_kredi": "4",
+          "ders_durum": "1",
+          "id": 6
+        },
+        {
+          "ders_kodu": "MATE103",
+          "ders_adi": "Metalurjiye Giriş",
+          "ders_kredi": "6",
+          "ders_durum": "0",
+          "id": 3
+        }
+      ]
     },
     {
       "name": "Ayşe",
@@ -91,7 +179,49 @@
       "müfredat_id": "2",
       "kimlik_id": "2",
       "iletisim_id": "5",
-      "request": 0
+      "request": 0,
+      "derslerim": [
+        {
+          "ders_kodu": "ENG102",
+          "ders_adi": "İngilizce 2",
+          "ders_kredi": "4",
+          "ders_durum": "1",
+          "id": 6
+        },
+        {
+          "ders_kodu": "MATE103",
+          "ders_adi": "Metalurjiye Giriş",
+          "ders_kredi": "6",
+          "ders_durum": "0",
+          "id": 7
+        },
+        {
+          "ders_kodu": "CMPE201",
+          "ders_adi": "Bilgisayar Teknolojileri",
+          "ders_kredi": "4",
+          "ders_durum": "1",
+          "id": 8
+        }
+      ],
+      "IngDilEdebiyat_Muf": [
+        {
+          "müfredat_id": "3"
+        },
+        {
+          "ders_kodu": "ENG102",
+          "ders_adi": "İngilizce 2",
+          "ders_kredi": "4",
+          "ders_durum": "1",
+          "id": 6
+        },
+        {
+          "ders_kodu": "MATE103",
+          "ders_adi": "Metalurjiye Giriş",
+          "ders_kredi": "6",
+          "ders_durum": "0",
+          "id": 3
+        }
+      ]
     },
     {
       "name": "Fatma",
@@ -111,7 +241,23 @@
       "müfredat_id": "3",
       "kimlik_id": "4",
       "iletisim_id": "2",
-      "request": 0
+      "request": 0,
+      "derslerim": [
+        {
+          "ders_kodu": "ENG102",
+          "ders_adi": "İngilizce 2",
+          "ders_kredi": "4",
+          "ders_durum": "1",
+          "id": 6
+        },
+        {
+          "ders_kodu": "MATE103",
+          "ders_adi": "Metalurjiye Giriş",
+          "ders_kredi": "6",
+          "ders_durum": "0",
+          "id": 3
+        }
+      ]
     }
   ],
   "MUFREDAT": {
