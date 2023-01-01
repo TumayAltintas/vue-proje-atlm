@@ -23,7 +23,7 @@
             </tr>
             </thead>
             <tbody>
-            <tr v-for="(Student,index) in students.slice(2,)" :key="index">
+            <tr v-for="(Student,index) in students" :key="index">
               <th scope="row">{{ index + 1 }}</th>
               <td>{{ Student.name }}</td>
               <td>{{ Student.surname }}</td>
