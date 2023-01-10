@@ -66,7 +66,7 @@ const router = createRouter({
 router.beforeEach((to, _, next) => {
 	const authRequiredRoutes = ["Home", "AdminAddStudent",
 		"AdminEditStudent", "AdminMufredat", "EditLesson", "StudentInformation", "StudentHome", "StudentDers"];
-	const authNotRequiredRoutes = ["Login", "LoginChoice", "StudentLogin"];
+	const authNotRequiredRoutes = [];
 	const _isAuthenticated = store.getters._isAuthenticated;
 
 	if (authNotRequiredRoutes.indexOf(to.name) > -1 && _isAuthenticated) next(false);
