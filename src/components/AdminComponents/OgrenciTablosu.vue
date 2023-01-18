@@ -55,11 +55,9 @@ export default {
     }
   },
   async created() {
-
     this.$appAxios.get("/users")
         .then(response => {
           this.students = response.data;
-
         })
         .catch(error => {
           console.log(error);
@@ -67,8 +65,8 @@ export default {
   },
 }
 </script>
-
 <style scoped>
+
 div.ekran {
   margin-top: 5px;
   height: 500px;

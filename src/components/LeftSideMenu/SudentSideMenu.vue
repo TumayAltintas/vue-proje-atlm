@@ -15,16 +15,7 @@
         <button type="button" class="btn btn-primary SideButton">Ders seçimi</button>
       </router-link>
     </div>
-<!--    <div class="AdminMenuButton">-->
-<!--      <router-link to="">-->
-<!--        <button type="button" class="btn btn-primary SideButton">Öğrenci tablosu</button>-->
-<!--      </router-link>-->
-<!--    </div>-->
-<!--    <div class="AdminMenuButton">-->
-<!--      <router-link to="">-->
-<!--        <button type="button" class="btn btn-primary SideButton">Öğrenci ekle</button>-->
-<!--      </router-link>-->
-<!--    </div>-->
+
   </div>
 </template>
 

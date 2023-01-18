@@ -1,14 +1,20 @@
 <script>
 import {RouterLink, RouterView} from 'vue-router'
-import TopHeader from '@/components/TopHeader/TopHeader.vue'
-import OgrenciEkleSil from "@/components/AdminComponents/OgrenciTablosu.vue";
 
 export default {
   name: 'App',
-  components: {
-    TopHeader,
-    OgrenciEkleSil,
 
+
+  mounted(){
+      if ( this.$store.state.user != null){
+           setTimeout(() => {
+             this.$store.commit("logoutUser");
+             this.$router.push({name: "LoginChoice"});
+             window.location.reload();
+             alert('Oturum süresi sona erdi')
+        },  30000);
+      }else {
+  }
   }
 }
 </script>

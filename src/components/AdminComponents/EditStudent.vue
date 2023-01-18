@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div :userdata=getUser class="row">
+    <div  class="row">
       <div class="mb-3 w-25 form-group">
         <label for="exampleFormControlInput1" class="form-label">İsim</label>
         <input v-model="getUser.name" type="text" class="form-control" id="exampleFormControlInput1"
