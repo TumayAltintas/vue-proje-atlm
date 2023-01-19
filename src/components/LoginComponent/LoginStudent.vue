@@ -44,6 +44,7 @@ export default {
           this.$router.push({name: 'StudentHome'});
           this.$store.commit('setUser', login_response.data);
           setTimeout(() => {
+            this.$store.commit("logoutUser");
             this.$router.push({name: 'LoginChoice'});
             alert('Oturum süresi sona erdi')
           }, 3000);
