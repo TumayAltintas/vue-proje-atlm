@@ -1,20 +1,13 @@
 <script>
 import {RouterLink, RouterView} from 'vue-router'
+import store from "./store";
 
 export default {
   name: 'App',
 
 
-  mounted(){
-      if ( this.$store.state.user != null){
-           setTimeout(() => {
-             this.$store.commit("logoutUser");
-             this.$router.push({name: "LoginChoice"});
-             window.location.reload();
-             alert('Oturum süresi sona erdi')
-        },  30000);
-      }else {
-  }
+  methods(){
+    store.dispatch('logoutUser')
   }
 }
 </script>

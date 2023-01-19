@@ -43,6 +43,10 @@ export default {
         if (login_response.data.length > 0) {
           this.$router.push({name: 'StudentHome'});
           this.$store.commit('setUser', login_response.data);
+          setTimeout(() => {
+            this.$router.push({name: 'LoginChoice'});
+            alert('Oturum süresi sona erdi')
+          }, 3000);
         } else {
           alert("Kullanıcı adı veya şifre hatalı");
         }

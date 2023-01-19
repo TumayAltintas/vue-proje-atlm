@@ -14,6 +14,11 @@ export default {
   components:{
     HomeStudent,
   },
+  methods() {
+    window.location.reload();
+
+
+  }
 
 }
 </script>
