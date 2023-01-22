@@ -90,13 +90,14 @@ export default {
     },
     async DurunGuncelleme(ders) {
       this.dersid = ders.id
-      this.$appAxios.patch("/dersler/" + this.dersid).then((res) => {
+      if (ders.ders_durum === "0") {
+        ders.ders_durum = "1"
+      } else {
+        ders.ders_durum = "0"
+      }
+      this.$appAxios.patch("/dersler/" + this.dersid,ders).then((res) => {
         console.log(res.data)
-        if (res.data.ders_durum === "0") {
-          res.data.ders_durum = "1"
-        } else {
-          res.data.ders_durum = "0"
-        }
+
       }).catch((error) => {
         console.log(error)
       })
